@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.contain{
+    background-color: aqua;
+    height: 200vh;
+    width: 100vw;
+
+}
+.contain1{
+   display: grid;
+   grid-template-rows:15vh 85vh ;
+   grid-template-areas: "c"
+   "d";
+}
+
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    padding: 15px;
+}
+li a{
+    display: block;
+    padding: 30px;
+    margin-left: 40px;
+}
+.itmes > h1{
+    text-align: right;
+}
+.contain1_1{
+    background-color:bisque;
+    grid-area: c;
+}
+.contain1_2{
+    background-color: rgb(92, 67, 35);
+    grid-area: d;
+    background-image: url(/project/image2/book2.jpg);
+}
+.contain1_1{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: "a b";
+
+}
+.contain1_11{
+    background-color: aquamarine;
+    grid-area: a;
+}
+.contain1_12{
+    background-color: rgb(40, 64, 56);
+    float: right;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contain1_2 > h1{
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+    flo
+}

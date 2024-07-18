@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.exam {
+    width: 100vw;
+    height: 200vh;
+    background-color:whitw;
+
+.exam1 {
+    height: 100vh;
+    background-color:none;
+    display: grid;
+    grid-template-rows: 15vh 85vh;
+    grid-template-areas: "a"
+        "b";
+
+}
+
+.exam1_1 {
+    background-color:none;
+    grid-area: a;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: "c d";
+}
+
+.exam1_2 {
+    background-color: rgb(200, 99, 99);
+    grid-area: b;
+}
+
+.exam1_11 {
+    background-color:rgb(249, 246, 246) ;
+    grid-area: c;
+    
+}
+.exam1_12{
+    background-color: rgb(249, 246, 246);
+    grid-area: d;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: right;
+
+}
+li{
+    float: left;
+    padding: 40px;
+    margin-left: 30px;
+}
+ul{
+    list-style-type: none;
+}
+.exam2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 100vh;
+    width: 100%;
+    margin-top: 2px;
+    
+}
+.exam2_1{
+    background-color:none;
+    margin: 2px;
+    margin-top: 2px
+
+}
+.exam2_1:hover{
+    background-color: white;
+}
+.exam2_2{
+    background-color:none;
+    margin: 2px;
+    margin-top: 2px
+
+}
+.exam2_2:hover{
+    background-color: aliceblue;
+}
+.exam2_3{
+    background-color: none;
+    margin: 2px;
+    margin-top: 2px
+    
+}
+.exam2_3:hover{
+    background-color: aliceblue;
+}
+.exam2_4{
+    background-color: none;
+    margin: 2px;
+    margin-top: 2px
+    
+}
+.exam2_4:hover{
+    background-color: aliceblue;
+}
+.exam2_5{
+    background-color: none;
+    margin: 2px;
+    margin-top: 2px
+    
+}
+.exam2_5:hover{
+    background-color: aliceblue;
+}
+.exam2_6{
+    background-color: none;
+    margin: 2px;
+    margin-top: 2px
+
+}
+.exam2_6:hover{
+    background-color: aliceblue;
+}
+.exam-1{
+    height: 15vh;
+    background-color: white;
+    color: black;
+}
+.exam-1 > h3{
+    text-align: center;
+    padding: 35px;
+    color: rgb(7, 7, 7);
+}
+.exam2_1 > img{
+    width: 405.062px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 200px;
+    
+}
+.exam2_1 > h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.exam2_1 > h5{
+    color: black;
+    text-align: center;
+}
+.exam2_2 > img{
+    width: 405.062px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 200px;
+    
+}
+.exam2_2 > h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.exam2_2 > h5{
+    color: black;
+    text-align: center;
+}
+.exam2_3 > img{
+    width: 405.062px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 200px;
+    
+}
+.exam2_3 > h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.exam2_3 > h5{
+    color: black;
+    text-align: center;
+}
+.exam2_4 > img{
+    width: 405.062px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 200px;
+    
+}
+.exam2_4 > h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.exam2_4 > h5{
+    color: black;
+    text-align: center;
+}
+.exam2_5 > img{
+    width: 405.062px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 200px;
+    
+}
+.exam2_5 > h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.exam2_5 > h5{
+    color: black;
+    text-align: center;
+}
+.exam2_6 > img{
+    width: 405.062px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 49px;
+    border-radius: 200px;
+    
+}
+.exam2_6 > h3{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.exam2_6 > h5{
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width:700px) {
+    .exam2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        height: 100vh;
+        width: 100%;
+        margin-top: 2px;
+    }
+    .exam1_1 {
+        background-color: brown;
+        grid-area: a;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "c" 
+        "d";
+    }
+}
